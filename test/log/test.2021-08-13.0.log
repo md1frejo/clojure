@@ -1,0 +1,16 @@
+2021-08-13 22:56:46,981 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] INFO  test.env - 
+-=[test started successfully using the development profile]=- 
+2021-08-13 22:56:47,296 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-08-13 22:56:47,301 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] INFO  io.undertow - starting server: Undertow - 2.2.7.Final 
+2021-08-13 22:56:47,309 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-08-13 22:56:47,408 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-08-13 22:56:47,418 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2021-08-13 22:56:47,452 [nREPL-session-b7a2c512-ed97-4bf4-a9e3-edffe5ffb88a] INFO  luminus.http-server - server started on port 3000 
+2021-08-13 23:56:01,782 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] INFO  test.env - 
+-=[test started successfully using the development profile]=- 
+2021-08-13 23:56:02,073 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-08-13 23:56:02,078 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] INFO  io.undertow - starting server: Undertow - 2.2.7.Final 
+2021-08-13 23:56:02,084 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-08-13 23:56:02,165 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-08-13 23:56:02,175 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2021-08-13 23:56:02,199 [nREPL-session-83f44944-6f6e-479d-8f2e-1ff726b0699b] INFO  luminus.http-server - server started on port 3000 

@@ -1,0 +1,34 @@
+2021-08-15 00:02:49,684 [XNIO-1 task-1] INFO  test.env - 
+-=[test has shut down successfully]=- 
+2021-08-15 00:02:49,685 [XNIO-1 task-1] INFO  test.env - 
+-=[test started successfully using the development profile]=- 
+2021-08-15 00:02:49,749 [XNIO-1 task-1] ERROR test.middleware - Key must be integer 
+java.lang.IllegalArgumentException: Key must be integer
+	at clojure.lang.APersistentVector.invoke(APersistentVector.java:294)
+	at ring.middleware.flash$flash_response.invokeStatic(flash.clj:24)
+	at ring.middleware.flash$flash_response.invoke(flash.clj:14)
+	at ring.middleware.flash$wrap_flash$fn__8244.invoke(flash.clj:39)
+	at ring.adapter.undertow.middleware.session$wrap_undertow_session$fn__8787.invoke(session.clj:77)
+	at ring.middleware.keyword_params$wrap_keyword_params$fn__8881.invoke(keyword_params.clj:53)
+	at ring.middleware.nested_params$wrap_nested_params$fn__8939.invoke(nested_params.clj:89)
+	at ring.middleware.multipart_params$wrap_multipart_params$fn__9071.invoke(multipart_params.clj:171)
+	at ring.middleware.params$wrap_params$fn__9095.invoke(params.clj:67)
+	at ring.middleware.cookies$wrap_cookies$fn__8560.invoke(cookies.clj:214)
+	at ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__9283.invoke(absolute_redirects.clj:47)
+	at ring.middleware.resource$wrap_resource_prefer_resources$fn__9131.invoke(resource.clj:25)
+	at ring.middleware.content_type$wrap_content_type$fn__9231.invoke(content_type.clj:34)
+	at ring.middleware.default_charset$wrap_default_charset$fn__9255.invoke(default_charset.clj:31)
+	at ring.middleware.not_modified$wrap_not_modified$fn__9197.invoke(not_modified.clj:61)
+	at ring.middleware.x_headers$wrap_x_header$fn__8821.invoke(x_headers.clj:22)
+	at ring.middleware.x_headers$wrap_x_header$fn__8821.invoke(x_headers.clj:22)
+	at ring.middleware.x_headers$wrap_x_header$fn__8821.invoke(x_headers.clj:22)
+	at test.middleware$wrap_internal_error$fn__9357.invoke(middleware.clj:18)
+	at ring.adapter.undertow$undertow_handler$fn$reify__13467.handleRequest(undertow.clj:40)
+	at io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:2019)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1558)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1449)
+	at java.base/java.lang.Thread.run(Thread.java:829)

@@ -1,0 +1,8 @@
+2021-08-06 16:02:06,031 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] INFO  test.env - 
+-=[test started successfully using the development profile]=- 
+2021-08-06 16:02:06,261 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-08-06 16:02:06,266 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] INFO  io.undertow - starting server: Undertow - 2.2.7.Final 
+2021-08-06 16:02:06,273 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-08-06 16:02:06,360 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-08-06 16:02:06,368 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 3000 
+2021-08-06 16:02:06,392 [nREPL-session-b7017637-9136-4d1b-a7f3-aba7695e6e38] INFO  luminus.http-server - server started on port 3000 
